@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="linker-stoplight-container" class="stoplight-container">
-        <div id="left-stoplight-label" class="stoplight-label">X</div>
+        <div id="left-stoplight-label" class="stoplight-label">A</div>
         <div class="stoplight">
             <div id="left-light-top" class="light"></div>
             <div id="left-light-middle" class="light"></div>
@@ -23,12 +23,17 @@
         </div>
     </div>
     <div id="rechter-stoplight-container" class="stoplight-container">
-            <div id="right-stoplight-label" class="stoplight-label">X</div>
+            <div id="right-stoplight-label" class="stoplight-label">B</div>
             <div class="stoplight">
-                <div id="right-light-top" class="light"></div>
-                <div id="right-light-middle" class="light"></div>
-                <div id="right-light-bottom" class="light"></div>
+                <div id="right-light-top1" class="light"></div>
+                <div id="right-light-middle1" class="light"></div>
+                <div id="right-light-bottom1" class="light"></div>
             </div>
+        <div id="btn-container">
+            <button class="btn" id="btn-rood1" onclick="toggleRoodLicht1()">Rood</button>
+            <button class="btn" id="btn-oranje1" onclick="toggleOranjeLicht1()">Oranje</button>
+            <button class="btn" id="btn-groen1" onclick="toggleGroenLicht1()">Groen</button>
+        </div>
     </div>
 </body>
 </html>

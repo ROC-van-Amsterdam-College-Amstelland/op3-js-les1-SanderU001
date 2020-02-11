@@ -40,11 +40,14 @@ function toggleRoodLicht(){
         document.getElementById("left-light-top").style.backgroundColor = "red";
         roodLichtStaatAan = true;
         //JOUW CODE HIER
+        document.getElementById("right-light-top").style.backgroundColor = "green";
+        groenLightStaatAan = true;
     }
     else{
         document.getElementById("left-light-top").style.backgroundColor = "gray";
         roodLichtStaatAan = false;
         //JOUW CODE HIER
+        document.getElementById("right-light-top").style.backgroundColor = "gray";
     }
 }
 
@@ -52,10 +55,13 @@ function toggleOranjeLicht(){
     if(oranjeLichtStaatAan == false){
         document.getElementById("left-light-middle").style.backgroundColor = "orange";
         oranjeLichtStaatAan = true;
+        document.getElementById("right-light-middle").style.backgroundColor = "orange";
+        oranjeLichtStaatAan = true;
     }
     else{
         document.getElementById("left-light-middle").style.backgroundColor = "gray";
         oranjeLichtStaatAan = false;
+        document.getElementById("right-light-middle").style.backgroundColor = "gray";
     }
 }
 
@@ -64,10 +70,14 @@ function toggleGroenLicht(){
         document.getElementById("left-light-bottom").style.backgroundColor = "green";
         groenLichtStaatAan = true;
         //JOUW CODE HIER
+        document.getElementById("right-light-bottom").style.backgroundColor = "red";
+        groenLichtStaatAan = true;
     }
     else{
         document.getElementById("left-light-bottom").style.backgroundColor = "gray";
         groenLichtStaatAan = false;
         //JOUW CODE HIER
+        document.getElementById("right-light-bottom").style.backgroundColor = "gray";
+        groenLichtStaatAan = false;
     }
 }
